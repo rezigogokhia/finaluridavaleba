@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "927183804518",
+    "firebase_url": "https://my-garage-b4417-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "my-garage-b4417",
+    "storage_bucket": "my-garage-b4417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927183804518:android:9007c29e7bf871dbaa75a7",
+        "android_client_info": {
+          "package_name": "com.example.garagefinaluri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927183804518-ebmrodplf3jbo42rdacfh8357lmqq196.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnb-zjCQ0yVT9qG0i2nE3ZllTneqbL0aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927183804518-ebmrodplf3jbo42rdacfh8357lmqq196.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927183804518:android:e28499e5e2252636aa75a7",
+        "android_client_info": {
+          "package_name": "com.example.my_popular_garage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927183804518-ebmrodplf3jbo42rdacfh8357lmqq196.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnb-zjCQ0yVT9qG0i2nE3ZllTneqbL0aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927183804518-ebmrodplf3jbo42rdacfh8357lmqq196.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

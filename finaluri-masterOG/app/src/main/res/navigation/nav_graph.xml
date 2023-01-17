@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentFirstPage">
+    <fragment
+        android:id="@+id/fragmentFirstPage"
+        android:name="com.example.flags.fragments.FragmentFirstPage"
+        android:label="FragmentFirstPage"
+        tools:layout="@layout/fragment_first_page">
+        <action
+            android:id="@+id/action_fragmentFirstPage_to_fragmentAuthorization"
+            app:destination="@id/fragmentAuthorization" />
+        <action
+            android:id="@+id/action_fragmentFirstPage_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAuthorization"
+        android:name="com.example.flags.fragments.FragmentAuthorization"
+        android:label="FragmentAuthorization"
+        tools:layout="@layout/activity_authorization">
+        <action
+            android:id="@+id/action_fragmentAuthorization_to_fragmentResetPassword"
+            app:destination="@id/fragmentResetPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResetPassword"
+        android:name="com.example.flags.fragments.FragmentResetPassword"
+        android:label="FragmentResetPassword"
+        tools:layout="@layout/activity_reset_password">
+        <action
+            android:id="@+id/action_fragmentResetPassword_to_fragmentAuthorization"
+            app:destination="@id/fragmentAuthorization" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.example.flags.fragments.FragmentRegister"
+        android:label="FragmentRegister"
+        tools:layout="@layout/activity_register">
+        <action
+            android:id="@+id/action_fragmentRegister_to_fragmentAuthorization"
+            app:destination="@id/fragmentAuthorization" />
+
+    </fragment>
+</navigation>
